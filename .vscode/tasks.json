@@ -1,0 +1,41 @@
+{
+  "tasks": [
+     {
+        "type": "cppbuild",
+        "label": "AVR cross compiler C/C++",
+        "command": "/opt/AVR/root/bin/avr-gcc",
+        "args": [
+          "-I${workspaceFolder}/eduardino",
+          "-g3",
+          "-Os",
+          "-fpack-struct",
+          "-fshort-enums",
+          "-ffunction-sections",
+          "-fdata-sections",
+          "-flto",
+          "-funsigned-char",
+          "-funsigned-bitfields",
+          "-fno-exceptions",
+          "-fpermissive",
+          "-std=gnu++23",
+          "-Wno-packed",
+          "-mmcu=attiny85",
+          "-DF_CPU=8000000UL",
+          "-MMD",
+          "-MP",
+          "-fdiagnostics-color=always",
+          "-g",
+          "${workspaceFolder}/**/*.cpp"
+        ],
+        "problemMatcher": [
+           "$gcc"
+        ],
+        "group": {
+           "kind": "build",
+           "isDefault": true
+        },
+        "detail": "Build executable for cpp."
+     },
+  ],
+  "version": "2.0.0"
+}

@@ -1,0 +1,33 @@
+{
+    "version": 1,
+    "beforeBuildTasks": [],
+    "afterBuildTasks": [
+        {
+            "name": "make hex",
+            "disable": true,
+            "abortAfterFailed": false,
+            "command": "\"${CompilerFolder}/${CompilerPrefix}objcopy\" -O ihex \"${OutDir}/${TargetName}.elf\" \"${OutDir}/${TargetName}.hex\""
+        },
+        {
+            "name": "make bin",
+            "disable": true,
+            "abortAfterFailed": false,
+            "command": "\"${CompilerFolder}/${CompilerPrefix}objcopy\" -O binary \"${OutDir}/${TargetName}.elf\" \"${OutDir}/${TargetName}.bin\""
+        }
+    ],
+    "global": {},
+    "c/cpp-compiler": {
+        "one-elf-section-per-function": true,
+        "one-elf-section-per-data": true,
+        "C_FLAGS": "-Wall -g3 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -Og -funsigned-char -funsigned-bitfields -fno-exceptions -fpermissive -mmcu=attiny85 -DF_CPU=8000000UL",
+        "CXX_FLAGS": "-Wall -g3 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -Og -funsigned-char -funsigned-bitfields -fno-exceptions -std=gnu++23 -fplugin=/opt/AVR/root/lib/avr-flash-vtbl.so -fpermissive -mmcu=attiny85 -DF_CPU=8000000UL"
+    },
+    "asm-compiler": {
+        "ASM_FLAGS": "-c"
+    },
+    "linker": {
+        "output-format": "elf",
+        "remove-unused-input-sections": true,
+        "linker-type": "g++"
+    }
+}

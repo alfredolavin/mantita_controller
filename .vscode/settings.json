@@ -1,0 +1,53 @@
+{
+  "files.exclude": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true,
+    "**/Thumbs.db": true,
+    "**/.*": true,
+    "Debug": true,
+    "Release": true,
+    ".vscode": true,
+    ".settings": true,
+    ".cproject": true,
+    ".project": true
+  },
+  "hide-files.files": [
+    ".vscode",
+    ".settings",
+    "Release",
+    "Debug",
+    ".cproject",
+    ".project"
+  ],
+  "C_Cpp.inlayHints.parameterNames.enabled": true,
+  "C_Cpp.inlayHints.referenceOperator.enabled": true,
+  "C_Cpp.experimentalFeatures": "enabled",
+  "cmake.configureOnOpen": false,
+  "AVR.reporter.arguments": [
+    "-A"
+  ],
+  "AVR.source.compiler": "/opt/AVR/root/bin/avr-gcc",
+  "AVR.programmer.tool": "/usr/bin/avrdude",
+  "AVR.source.libraries": [],
+  "AVR.device.type": "attiny85",
+  "AVR.device.frequency": 8000000,
+  "AVR.programmer.type": "jtag2dw",
+  "AVR.programmer.port": "usb",
+  "AVR.programmer.rate": 100,
+  "AVR.source.highlight": true,
+  "AVR.hex.dump.enabled": true,
+  "AVR.compiler.arguments": [
+    "-g",
+    "-Os",
+    "-Wall",
+    "-Wextra",
+    "-fpermissive",
+    "-fno-exceptions",
+    "-fno-threadsafe-statics",
+    "-pipe",
+    "-Ieduardino"
+  ]
+}

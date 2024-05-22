@@ -1,0 +1,97 @@
+{
+  "name": "duchaRGB",
+  "type": "ANY-GCC",
+  "dependenceList": [],
+  "srcDirs": [],
+  "virtualFolder": {
+    "name": "<virtual_root>",
+    "files": [
+      {
+        "path": "colors.hpp"
+      },
+      {
+        "path": "main.cpp"
+      }
+    ],
+    "folders": []
+  },
+  "outDir": "build",
+  "deviceName": null,
+  "packDir": null,
+  "miscInfo": {
+    "uid": "f48d368b3539387d0581ae574b8207a2"
+  },
+  "targets": {
+    "Debug": {
+      "excludeList": [
+        "eduardino/device/i2c"
+      ],
+      "toolchain": "ANY_GCC",
+      "compileConfig": {
+        "linkerScriptPath": "",
+        "options": "null"
+      },
+      "uploader": "Custom",
+      "uploadConfig": {
+        "bin": "/usr/bin/avrdude",
+        "commandLine": "",
+        "eraseChipCommand": "-e"
+      },
+      "uploadConfigMap": {
+        "JLink": {
+          "bin": "",
+          "baseAddr": "",
+          "cpuInfo": {
+            "vendor": "null",
+            "cpuName": "null"
+          },
+          "proType": 1,
+          "speed": 8000,
+          "otherCmds": ""
+        }
+      },
+      "custom_dep": {
+        "name": "default",
+        "incList": [
+          "eduardino"
+        ],
+        "libList": [],
+        "sourceDirList": [],
+        "defineList": []
+      }
+    },
+    "Release": {
+      "excludeList": [
+        "eduardino/device/i2c"
+      ],
+      "toolchain": "ANY_GCC",
+      "compileConfig": {
+        "linkerScriptPath": "",
+        "options": "null"
+      },
+      "uploader": "JLink",
+      "uploadConfig": {
+        "bin": "",
+        "baseAddr": "",
+        "cpuInfo": {
+          "vendor": "null",
+          "cpuName": "null"
+        },
+        "proType": 1,
+        "speed": 8000,
+        "otherCmds": ""
+      },
+      "uploadConfigMap": {},
+      "custom_dep": {
+        "name": "default",
+        "incList": [
+          "eduardino"
+        ],
+        "defineList": [],
+        "sourceDirList": [],
+        "libList": []
+      }
+    }
+  },
+  "version": "3.3"
+}
