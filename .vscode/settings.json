@@ -49,5 +49,7 @@
     "-fno-threadsafe-statics",
     "-pipe",
     "-Ieduardino"
-  ]
+  ],
+  "C_Cpp.default.compilerPath": "/opt/AVR/root/bin/avr-gcc",
+  "C_Cpp.autocompleteAddParentheses": true
 }

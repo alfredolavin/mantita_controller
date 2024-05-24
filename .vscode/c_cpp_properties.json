@@ -3,13 +3,9 @@
         {
             "name": "AVR",
             "intelliSenseMode": "linux-gcc-arm",
-            "compilerPath": "/opt/AVR/root/bin/avr-gcc",
-            "cStandard": "gnu23",
-            "cppStandard": "gnu++23",
-            "includePath": [
-                "${workspaceFolder}/eduardino",
-                "${workspaceFolder}/**"
-            ],
+            "cStandard": "c23",
+            "cppStandard": "c++23",
+            "includePath": [],
             "compilerArgs": [
                 "-g",
                 "-Os",
@@ -18,8 +14,16 @@
                 "-fpermissive",
                 "-fno-exceptions",
                 "-fno-threadsafe-statics",
-                "-pipe"
-            ]
+                "-pipe",
+                "-Ieduardino",
+                "-mmcu=attiny85",
+                "-DF_CPU=8000000UL"
+            ],
+            "defines": [
+                "__AVR_ATtiny85__=1",
+                "F_CPU=8000000"
+            ],
+            "compilerPath": "/opt/AVR/root/bin/avr-gcc"
         }
     ],
     "version": 4

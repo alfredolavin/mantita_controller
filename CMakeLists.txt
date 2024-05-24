@@ -86,10 +86,11 @@ add_executable(${PROJECT_NAME} ${SRC_FILES} ${LIB_SRC_FILES})
 set_target_properties(${PROJECT_NAME} PROPERTIES OUTPUT_NAME "${PROJECT_NAME}.elf")
 
 # Compiling targets
-add_custom_target(strip ALL     ${AVRSTRIP} "${PROJECT_NAME}.elf" DEPENDS ${PROJECT_NAME})
-add_custom_target(hex   ALL     ${OBJCOPY} -R .eeprom -O ihex "${PROJECT_NAME}.elf" "${PROJECT_NAME}.hex" DEPENDS strip)
-add_custom_target(eeprom        ${OBJCOPY} -j .eeprom --change-section-lma .eeprom=0 -O ihex "${PROJECT_NAME}.elf" "${PROJECT_NAME}.eeprom" DEPENDS strip)
-add_custom_target(size  ALL      ${AVRSIZE} --format=berkeley -t "${PROJECT_NAME}.elf" DEPENDS strip)
+add_custom_target(strip ${AVRSTRIP} "${PROJECT_NAME}.elf" DEPENDS ${PROJECT_NAME})
+add_custom_target(hex   ALL     ${OBJCOPY} -R .eeprom -O ihex "${PROJECT_NAME}.elf" "${PROJECT_NAME}.hex")
+add_custom_target(eeprom        ${OBJCOPY} -j .eeprom --change-section-lma .eeprom=0 -O ihex "${PROJECT_NAME}.elf" "${PROJECT_NAME}.eeprom")
+add_custom_target(listing ALL        ${OBJDUMP} -h --demangle --disassembler-color=extended-color -S "${PROJECT_NAME}.elf" > "${PROJECT_NAME}.lss")
+add_custom_target(size  ALL      ${AVRSIZE} --format=berkeley -t "${PROJECT_NAME}.elf")
 add_custom_target(flash ${AVRDUDE} -c ${PROG_TYPE} -p ${MCU} -U flash:w:${PROJECT_NAME}.hex DEPENDS hex)
 
 
