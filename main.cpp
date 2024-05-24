@@ -51,8 +51,7 @@ void loop () {
   s8 temp = std::min(std::max(cero, tempSensor.getTemp()), (s8)(n_colors-1));
   color_t temp_color = (color_t)inFlashArray(colors)[temp];
 
-  while(test--){
-	softUpdate(temp_color);}
+	softUpdate(temp_color);
 
   delay_ms(50);
 }

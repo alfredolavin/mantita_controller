@@ -12,6 +12,7 @@
       "type_traits": "cpp",
       "typeinfo": "cpp",
       "concepts": "cpp"
-    }
+    },
+    "hide-files.files": []
   }
 }
