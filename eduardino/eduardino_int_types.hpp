@@ -58,25 +58,27 @@ struct bitSelectorProxy_t {
 template <typename derived_t, typename base_type>
 struct transformationMixin {
 
-  template <std::integral number_T>
-  transformationMixin(number_T to_value = 0) {
-    (static_cast<derived_t *>(this))->value = to_value; }
-  
-  transformationMixin() {
-    (static_cast<derived_t *>(this))->value = 0; }
-
-  _inline_ operator auto &&() {
+  constexpr base_type & getValue() {
     return (static_cast<derived_t *>(this))->value; }
 
-  _inline_ auto &operator=(const auto &to_value) {
-    (static_cast<derived_t *>(this))->value = to_value;
+  template <std::integral number_T>
+  transformationMixin(number_T to_value = 0) {
+    getValue() = to_value; }
+
+  transformationMixin() {
+    getValue() = 0; }
+
+  _inline_ operator auto &&() {
+    return getValue(); }
+
+  _inline_ auto &operator=(const auto &&to_value) {
+    getValue() = to_value;
     return (static_cast<derived_t *>(this)); }
 
   _inline_ auto operator[](cu8 bitN) const volatile {
     auto * temp = static_cast<const volatile derived_t*>(this);
     auto * temp2 = const_cast<derived_t*>(temp);
-    return bitSelectorProxy_t<base_type>(temp2->value, bitN);}
-};
+    return bitSelectorProxy_t<base_type>(temp2->value, bitN); } };
 
 struct U8 : transformationMixin<U8, u8> {
   using transformationMixin::transformationMixin;
@@ -178,8 +180,7 @@ struct U24 : public transformationMixin<U24, u24> {
       u8 hi_byte; };
 
     u8 bytes[sizeof(value)];
-    U8 Ubytes[sizeof(value)];
-     }; };
+    U8 Ubytes[sizeof(value)]; }; };
 
 struct U32 : public transformationMixin<U32, u32> {
   using transformationMixin::transformationMixin;
@@ -323,12 +324,11 @@ struct U64 : public transformationMixin<U64, u64> {
     u32 dwords[2]; }; };
 
 struct pin_t {
-  struct GPIO_t{
+  struct GPIO_t {
     U8 PINX;
     U8 DDRX;
-    U8 PORTX;
-  };
-  const volatile GPIO_t &GPIO;
+    U8 PORTX; } const volatile &GPIO;
+    
   cu8 pin;
 
   _inline_ bool get() const {

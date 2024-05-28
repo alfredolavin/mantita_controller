@@ -89,7 +89,7 @@ set_target_properties(${PROJECT_NAME} PROPERTIES OUTPUT_NAME "${PROJECT_NAME}.el
 add_custom_target(strip ${AVRSTRIP} "${PROJECT_NAME}.elf" DEPENDS ${PROJECT_NAME})
 add_custom_target(hex   ALL     ${OBJCOPY} -R .eeprom -O ihex "${PROJECT_NAME}.elf" "${PROJECT_NAME}.hex")
 add_custom_target(eeprom        ${OBJCOPY} -j .eeprom --change-section-lma .eeprom=0 -O ihex "${PROJECT_NAME}.elf" "${PROJECT_NAME}.eeprom")
-add_custom_target(listing ALL        ${OBJDUMP} -h --demangle --disassembler-color=extended-color -S "${PROJECT_NAME}.elf" > "${PROJECT_NAME}.lss")
+add_custom_target(listing ALL        ${OBJDUMP} -h --source --no-show-raw-insn --visualize-jumps=extended-color --wide --demangle --disassembler-color=extended-color -S "${PROJECT_NAME}.elf" | ansi2html.sh > "${PROJECT_NAME}.lss.html")
 add_custom_target(size  ALL      ${AVRSIZE} --format=berkeley -t "${PROJECT_NAME}.elf")
 add_custom_target(flash ${AVRDUDE} -c ${PROG_TYPE} -p ${MCU} -U flash:w:${PROJECT_NAME}.hex DEPENDS hex)
 
