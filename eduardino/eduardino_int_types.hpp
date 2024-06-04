@@ -1,7 +1,6 @@
 #pragma once
 #include "eduardino_defines.hpp"
 #include <string.h>
-#include <typeinfo>
 
 template <typename base_t>
 struct bitSelectorProxy_t {
@@ -328,7 +327,7 @@ struct pin_t {
     U8 PINX;
     U8 DDRX;
     U8 PORTX; } const volatile &GPIO;
-    
+
   cu8 pin;
 
   _inline_ bool get() const {
