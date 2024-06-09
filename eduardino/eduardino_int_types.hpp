@@ -416,7 +416,11 @@ struct FSRmixin {
     static_cast<derived_t &>(mSelf) = to; }
 
   operator u8&() {
-    return static_cast<derived_t &>(mSelf); } };
+    return static_cast<derived_t &>(mSelf); }
+  
+  template <typename T>
+  operator T&() {
+    return static_cast<T&>(mSelf); } };
 
 
 

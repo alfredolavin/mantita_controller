@@ -1,0 +1,1188 @@
+Archive member included to satisfy reference by file (symbol)
+
+/opt/AVR/root/lib/gcc/avr/14.1.0/avr25/libgcc.a(_mulhi3.o)
+                              ./main.o (__mulhi3)
+/opt/AVR/root/lib/gcc/avr/14.1.0/avr25/libgcc.a(_exit.o)
+                              /opt/AVR/root/lib/gcc/avr/14.1.0/../../../../avr/lib/avr25/crtattiny85.o (exit)
+/opt/AVR/root/lib/gcc/avr/14.1.0/avr25/libgcc.a(_copy_data.o)
+                              ./main.o (__do_copy_data)
+/opt/AVR/root/lib/gcc/avr/14.1.0/avr25/libgcc.a(_clear_bss.o)
+                              ./main.o (__do_clear_bss)
+/opt/AVR/root/lib/gcc/avr/14.1.0/avr25/libgcc.a(_ctors.o)
+                              ./main.o (__do_global_ctors)
+/opt/AVR/root/lib/gcc/avr/14.1.0/avr25/libgcc.a(_tablejump2.o)
+                              /opt/AVR/root/lib/gcc/avr/14.1.0/avr25/libgcc.a(_ctors.o) (__tablejump2__)
+/opt/AVR/root/lib/gcc/avr/14.1.0/../../../../avr/lib/avr25/libc.a(memset.o)
+                              ./main.o (memset)
+
+Discarded input sections
+
+ .data          0x00000000        0x0 /opt/AVR/root/lib/gcc/avr/14.1.0/../../../../avr/lib/avr25/crtattiny85.o
+ .bss           0x00000000        0x0 /opt/AVR/root/lib/gcc/avr/14.1.0/../../../../avr/lib/avr25/crtattiny85.o
+ .group         0x00000000        0xc ./eduardino/eduardino.o
+ .group         0x00000000        0xc ./eduardino/eduardino.o
+ .group         0x00000000        0xc ./eduardino/eduardino.o
+ .group         0x00000000        0xc ./eduardino/eduardino.o
+ .group         0x00000000        0xc ./eduardino/eduardino.o
+ .group         0x00000000        0xc ./eduardino/eduardino.o
+ .group         0x00000000        0xc ./eduardino/eduardino.o
+ .group         0x00000000        0xc ./eduardino/eduardino.o
+ .group         0x00000000        0xc ./eduardino/eduardino.o
+ .group         0x00000000        0xc ./eduardino/eduardino.o
+ .group         0x00000000        0xc ./eduardino/eduardino.o
+ .group         0x00000000        0xc ./eduardino/eduardino.o
+ .group         0x00000000        0xc ./eduardino/eduardino.o
+ .group         0x00000000        0xc ./eduardino/eduardino.o
+ .group         0x00000000        0xc ./eduardino/eduardino.o
+ .group         0x00000000        0xc ./eduardino/eduardino.o
+ .group         0x00000000        0xc ./eduardino/eduardino.o
+ .group         0x00000000        0xc ./eduardino/eduardino.o
+ .group         0x00000000        0xc ./eduardino/eduardino.o
+ .group         0x00000000        0xc ./eduardino/eduardino.o
+ .group         0x00000000        0xc ./eduardino/eduardino.o
+ .group         0x00000000        0xc ./eduardino/eduardino.o
+ .group         0x00000000        0xc ./eduardino/eduardino.o
+ .group         0x00000000        0xc ./eduardino/eduardino.o
+ .group         0x00000000        0xc ./eduardino/eduardino.o
+ .group         0x00000000        0xc ./eduardino/eduardino.o
+ .group         0x00000000        0xc ./eduardino/eduardino.o
+ .group         0x00000000        0xc ./eduardino/eduardino.o
+ .group         0x00000000        0xc ./eduardino/eduardino.o
+ .group         0x00000000        0xc ./eduardino/eduardino.o
+ .group         0x00000000        0xc ./eduardino/eduardino.o
+ .group         0x00000000        0xc ./eduardino/eduardino.o
+ .group         0x00000000        0xc ./eduardino/eduardino.o
+ .group         0x00000000        0xc ./eduardino/eduardino.o
+ .group         0x00000000        0xc ./eduardino/eduardino.o
+ .group         0x00000000        0xc ./eduardino/eduardino.o
+ .group         0x00000000        0xc ./eduardino/eduardino.o
+ .group         0x00000000        0xc ./eduardino/eduardino.o
+ .group         0x00000000        0xc ./eduardino/eduardino.o
+ .group         0x00000000        0xc ./eduardino/eduardino.o
+ .group         0x00000000        0xc ./eduardino/eduardino.o
+ .group         0x00000000        0xc ./eduardino/eduardino.o
+ .group         0x00000000        0xc ./eduardino/eduardino.o
+ .group         0x00000000        0xc ./eduardino/eduardino.o
+ .group         0x00000000        0xc ./eduardino/eduardino.o
+ .group         0x00000000        0xc ./eduardino/eduardino.o
+ .group         0x00000000        0xc ./eduardino/eduardino.o
+ .group         0x00000000        0xc ./eduardino/eduardino.o
+ .group         0x00000000        0xc ./eduardino/eduardino.o
+ .group         0x00000000        0xc ./eduardino/eduardino.o
+ .group         0x00000000        0xc ./eduardino/eduardino.o
+ .group         0x00000000        0xc ./eduardino/eduardino.o
+ .group         0x00000000        0xc ./eduardino/eduardino.o
+ .group         0x00000000        0xc ./eduardino/eduardino.o
+ .group         0x00000000        0xc ./eduardino/eduardino.o
+ .group         0x00000000        0xc ./eduardino/eduardino.o
+ .group         0x00000000        0xc ./eduardino/eduardino.o
+ .group         0x00000000        0xc ./eduardino/eduardino.o
+ .group         0x00000000        0xc ./eduardino/eduardino.o
+ .group         0x00000000        0xc ./eduardino/eduardino.o
+ .group         0x00000000        0xc ./eduardino/eduardino.o
+ .group         0x00000000        0xc ./eduardino/eduardino.o
+ .group         0x00000000        0xc ./eduardino/eduardino.o
+ .group         0x00000000        0xc ./eduardino/eduardino.o
+ .group         0x00000000        0xc ./eduardino/eduardino.o
+ .group         0x00000000        0xc ./eduardino/eduardino.o
+ .group         0x00000000        0xc ./eduardino/eduardino.o
+ .group         0x00000000        0xc ./eduardino/eduardino.o
+ .group         0x00000000        0xc ./eduardino/eduardino.o
+ .group         0x00000000        0xc ./eduardino/eduardino.o
+ .group         0x00000000        0xc ./eduardino/eduardino.o
+ .group         0x00000000        0xc ./eduardino/eduardino.o
+ .group         0x00000000        0xc ./eduardino/eduardino.o
+ .group         0x00000000        0xc ./eduardino/eduardino.o
+ .group         0x00000000        0xc ./eduardino/eduardino.o
+ .group         0x00000000        0xc ./eduardino/eduardino.o
+ .group         0x00000000        0xc ./eduardino/eduardino.o
+ .group         0x00000000        0xc ./eduardino/eduardino.o
+ .group         0x00000000        0xc ./eduardino/eduardino.o
+ .group         0x00000000        0xc ./eduardino/eduardino.o
+ .group         0x00000000        0xc ./eduardino/eduardino.o
+ .text          0x00000000        0x0 ./eduardino/eduardino.o
+ .data          0x00000000        0x0 ./eduardino/eduardino.o
+ .bss           0x00000000        0x0 ./eduardino/eduardino.o
+ .text._Z8delay_usj
+                0x00000000       0x1a ./eduardino/eduardino.o
+ .group         0x00000000        0x8 ./main.o
+ .group         0x00000000        0x8 ./main.o
+ .group         0x00000000        0x8 ./main.o
+ .group         0x00000000        0x8 ./main.o
+ .group         0x00000000        0xc ./main.o
+ .group         0x00000000        0xc ./main.o
+ .group         0x00000000        0xc ./main.o
+ .group         0x00000000        0xc ./main.o
+ .group         0x00000000        0xc ./main.o
+ .group         0x00000000        0xc ./main.o
+ .group         0x00000000        0xc ./main.o
+ .group         0x00000000        0xc ./main.o
+ .group         0x00000000        0xc ./main.o
+ .group         0x00000000        0xc ./main.o
+ .group         0x00000000        0xc ./main.o
+ .group         0x00000000        0xc ./main.o
+ .group         0x00000000        0xc ./main.o
+ .group         0x00000000        0xc ./main.o
+ .group         0x00000000        0xc ./main.o
+ .group         0x00000000        0xc ./main.o
+ .group         0x00000000        0xc ./main.o
+ .group         0x00000000        0xc ./main.o
+ .group         0x00000000        0xc ./main.o
+ .group         0x00000000        0xc ./main.o
+ .group         0x00000000        0xc ./main.o
+ .group         0x00000000        0xc ./main.o
+ .group         0x00000000        0xc ./main.o
+ .group         0x00000000        0x8 ./main.o
+ .group         0x00000000        0xc ./main.o
+ .group         0x00000000        0xc ./main.o
+ .group         0x00000000        0xc ./main.o
+ .group         0x00000000        0xc ./main.o
+ .group         0x00000000        0xc ./main.o
+ .group         0x00000000        0xc ./main.o
+ .group         0x00000000        0xc ./main.o
+ .group         0x00000000        0xc ./main.o
+ .group         0x00000000        0xc ./main.o
+ .group         0x00000000        0xc ./main.o
+ .group         0x00000000        0xc ./main.o
+ .group         0x00000000        0xc ./main.o
+ .group         0x00000000        0xc ./main.o
+ .group         0x00000000        0xc ./main.o
+ .group         0x00000000        0xc ./main.o
+ .group         0x00000000        0xc ./main.o
+ .group         0x00000000        0xc ./main.o
+ .group         0x00000000        0xc ./main.o
+ .group         0x00000000        0xc ./main.o
+ .group         0x00000000        0xc ./main.o
+ .group         0x00000000        0xc ./main.o
+ .group         0x00000000        0xc ./main.o
+ .group         0x00000000        0xc ./main.o
+ .group         0x00000000        0xc ./main.o
+ .group         0x00000000        0xc ./main.o
+ .group         0x00000000        0xc ./main.o
+ .group         0x00000000        0xc ./main.o
+ .group         0x00000000        0xc ./main.o
+ .group         0x00000000        0xc ./main.o
+ .group         0x00000000        0xc ./main.o
+ .group         0x00000000        0xc ./main.o
+ .group         0x00000000        0xc ./main.o
+ .group         0x00000000        0xc ./main.o
+ .group         0x00000000        0xc ./main.o
+ .group         0x00000000        0xc ./main.o
+ .group         0x00000000        0xc ./main.o
+ .group         0x00000000        0xc ./main.o
+ .group         0x00000000        0xc ./main.o
+ .group         0x00000000        0xc ./main.o
+ .group         0x00000000        0xc ./main.o
+ .group         0x00000000        0xc ./main.o
+ .group         0x00000000        0xc ./main.o
+ .group         0x00000000        0xc ./main.o
+ .group         0x00000000        0xc ./main.o
+ .group         0x00000000        0xc ./main.o
+ .group         0x00000000        0xc ./main.o
+ .group         0x00000000        0xc ./main.o
+ .group         0x00000000        0xc ./main.o
+ .group         0x00000000        0xc ./main.o
+ .group         0x00000000        0xc ./main.o
+ .group         0x00000000        0xc ./main.o
+ .group         0x00000000        0xc ./main.o
+ .group         0x00000000        0xc ./main.o
+ .group         0x00000000        0xc ./main.o
+ .group         0x00000000        0xc ./main.o
+ .group         0x00000000        0xc ./main.o
+ .group         0x00000000        0xc ./main.o
+ .group         0x00000000        0xc ./main.o
+ .group         0x00000000        0xc ./main.o
+ .group         0x00000000        0xc ./main.o
+ .group         0x00000000        0xc ./main.o
+ .group         0x00000000        0xc ./main.o
+ .group         0x00000000        0xc ./main.o
+ .group         0x00000000        0xc ./main.o
+ .group         0x00000000        0xc ./main.o
+ .group         0x00000000        0xc ./main.o
+ .group         0x00000000        0xc ./main.o
+ .group         0x00000000        0xc ./main.o
+ .group         0x00000000        0xc ./main.o
+ .group         0x00000000        0xc ./main.o
+ .group         0x00000000        0xc ./main.o
+ .group         0x00000000        0xc ./main.o
+ .group         0x00000000        0xc ./main.o
+ .group         0x00000000        0xc ./main.o
+ .group         0x00000000        0xc ./main.o
+ .group         0x00000000        0xc ./main.o
+ .group         0x00000000        0xc ./main.o
+ .group         0x00000000        0xc ./main.o
+ .group         0x00000000        0xc ./main.o
+ .group         0x00000000        0xc ./main.o
+ .group         0x00000000        0xc ./main.o
+ .text          0x00000000        0x0 ./main.o
+ .data          0x00000000        0x0 ./main.o
+ .bss           0x00000000        0x0 ./main.o
+ .data.font8x8  0x00000000        0x7 ./main.o
+ .progmem.data._ZL12font8x8_data
+                0x00000000      0x299 ./main.o
+ .rodata._ZL4mux3
+                0x00000000        0x1 ./main.o
+ .rodata._ZL4mux2
+                0x00000000        0x1 ./main.o
+ .rodata._ZL4mux1
+                0x00000000        0x1 ./main.o
+ .rodata._ZL4mux0
+                0x00000000        0x1 ./main.o
+ .debug_macro   0x00000000      0xdba ./main.o
+ .debug_macro   0x00000000       0x1c ./main.o
+ .debug_macro   0x00000000      0x1c9 ./main.o
+ .debug_macro   0x00000000       0x10 ./main.o
+ .debug_macro   0x00000000      0x1f2 ./main.o
+ .debug_macro   0x00000000      0x1ee ./main.o
+ .debug_macro   0x00000000      0x895 ./main.o
+ .debug_macro   0x00000000       0x10 ./main.o
+ .debug_macro   0x00000000      0x88e ./main.o
+ .debug_macro   0x00000000       0x94 ./main.o
+ .debug_macro   0x00000000      0x91e ./main.o
+ .debug_macro   0x00000000       0x1c ./main.o
+ .debug_macro   0x00000000       0x18 ./main.o
+ .debug_macro   0x00000000       0x4f ./main.o
+ .debug_macro   0x00000000       0x1f ./main.o
+ .debug_macro   0x00000000       0x28 ./main.o
+ .debug_macro   0x00000000       0x2e ./main.o
+ .debug_macro   0x00000000       0x16 ./main.o
+ .debug_macro   0x00000000      0x7f7 ./main.o
+ .debug_macro   0x00000000       0x12 ./main.o
+ .debug_macro   0x00000000       0x88 ./main.o
+ .debug_macro   0x00000000       0x28 ./main.o
+ .debug_macro   0x00000000      0x7f0 ./main.o
+ .debug_macro   0x00000000       0x12 ./main.o
+ .debug_macro   0x00000000       0x1c ./main.o
+ .debug_macro   0x00000000      0x7c6 ./main.o
+ .debug_macro   0x00000000       0xac ./main.o
+ .debug_macro   0x00000000       0x3a ./main.o
+ .debug_macro   0x00000000      0x7b8 ./main.o
+ .debug_macro   0x00000000       0x10 ./main.o
+ .debug_macro   0x00000000      0x76b ./main.o
+ .debug_macro   0x00000000       0x12 ./main.o
+ .debug_macro   0x00000000      0x75d ./main.o
+ .debug_macro   0x00000000       0x16 ./main.o
+ .debug_macro   0x00000000      0x76b ./main.o
+ .debug_macro   0x00000000       0x10 ./main.o
+ .debug_macro   0x00000000      0x755 ./main.o
+ .debug_macro   0x00000000      0x197 ./main.o
+ .debug_macro   0x00000000       0x10 ./main.o
+ .debug_macro   0x00000000      0x750 ./main.o
+ .debug_macro   0x00000000       0x10 ./main.o
+ .debug_macro   0x00000000       0x11 ./main.o
+ .debug_macro   0x00000000       0x17 ./main.o
+ .debug_macro   0x00000000       0x10 ./main.o
+ .debug_macro   0x00000000      0x749 ./main.o
+ .debug_macro   0x00000000       0x28 ./main.o
+ .debug_macro   0x00000000      0x742 ./main.o
+ .debug_macro   0x00000000       0x2e ./main.o
+ .debug_macro   0x00000000      0x750 ./main.o
+ .debug_macro   0x00000000       0x10 ./main.o
+ .debug_macro   0x00000000       0x2e ./main.o
+ .debug_macro   0x00000000      0x749 ./main.o
+ .debug_macro   0x00000000       0x16 ./main.o
+ .debug_macro   0x00000000      0x6f5 ./main.o
+ .debug_macro   0x00000000       0x3c ./main.o
+ .debug_macro   0x00000000       0x1c ./main.o
+ .debug_macro   0x00000000       0x58 ./main.o
+ .debug_macro   0x00000000      0x726 ./main.o
+ .debug_macro   0x00000000      0x68c ./main.o
+ .debug_macro   0x00000000       0x16 ./main.o
+ .debug_macro   0x00000000       0x3c ./main.o
+ .debug_macro   0x00000000       0x16 ./main.o
+ .debug_macro   0x00000000       0x10 ./main.o
+ .debug_macro   0x00000000      0x302 ./main.o
+ .debug_macro   0x00000000       0x9e ./main.o
+ .debug_macro   0x00000000      0x7dd ./main.o
+ .debug_macro   0x00000000       0xd6 ./main.o
+ .debug_macro   0x00000000       0xc2 ./main.o
+ .debug_macro   0x00000000       0xbd ./main.o
+ .debug_macro   0x00000000       0x34 ./main.o
+ .debug_macro   0x00000000       0x18 ./main.o
+ .debug_macro   0x00000000       0x34 ./main.o
+ .debug_macro   0x00000000       0x10 ./main.o
+ .debug_macro   0x00000000       0x64 ./main.o
+ .debug_macro   0x00000000       0x1c ./main.o
+ .debug_macro   0x00000000       0x53 ./main.o
+ .debug_macro   0x00000000       0x2e ./main.o
+ .debug_macro   0x00000000       0x10 ./main.o
+ .debug_macro   0x00000000       0xc6 ./main.o
+ .debug_macro   0x00000000       0x22 ./main.o
+ .debug_macro   0x00000000      0x15e ./main.o
+ .text          0x00000000        0x0 /opt/AVR/root/lib/gcc/avr/14.1.0/avr25/libgcc.a(_mulhi3.o)
+ .data          0x00000000        0x0 /opt/AVR/root/lib/gcc/avr/14.1.0/avr25/libgcc.a(_mulhi3.o)
+ .bss           0x00000000        0x0 /opt/AVR/root/lib/gcc/avr/14.1.0/avr25/libgcc.a(_mulhi3.o)
+ .text.libgcc.div
+                0x00000000        0x0 /opt/AVR/root/lib/gcc/avr/14.1.0/avr25/libgcc.a(_mulhi3.o)
+ .text.libgcc   0x00000000        0x0 /opt/AVR/root/lib/gcc/avr/14.1.0/avr25/libgcc.a(_mulhi3.o)
+ .text.libgcc.prologue
+                0x00000000        0x0 /opt/AVR/root/lib/gcc/avr/14.1.0/avr25/libgcc.a(_mulhi3.o)
+ .text.libgcc.builtins
+                0x00000000        0x0 /opt/AVR/root/lib/gcc/avr/14.1.0/avr25/libgcc.a(_mulhi3.o)
+ .text.libgcc.fmul
+                0x00000000        0x0 /opt/AVR/root/lib/gcc/avr/14.1.0/avr25/libgcc.a(_mulhi3.o)
+ .text.libgcc.fixed
+                0x00000000        0x0 /opt/AVR/root/lib/gcc/avr/14.1.0/avr25/libgcc.a(_mulhi3.o)
+ .text          0x00000000        0x0 /opt/AVR/root/lib/gcc/avr/14.1.0/avr25/libgcc.a(_exit.o)
+ .data          0x00000000        0x0 /opt/AVR/root/lib/gcc/avr/14.1.0/avr25/libgcc.a(_exit.o)
+ .bss           0x00000000        0x0 /opt/AVR/root/lib/gcc/avr/14.1.0/avr25/libgcc.a(_exit.o)
+ .text.libgcc.mul
+                0x00000000        0x0 /opt/AVR/root/lib/gcc/avr/14.1.0/avr25/libgcc.a(_exit.o)
+ .text.libgcc.div
+                0x00000000        0x0 /opt/AVR/root/lib/gcc/avr/14.1.0/avr25/libgcc.a(_exit.o)
+ .text.libgcc   0x00000000        0x0 /opt/AVR/root/lib/gcc/avr/14.1.0/avr25/libgcc.a(_exit.o)
+ .text.libgcc.prologue
+                0x00000000        0x0 /opt/AVR/root/lib/gcc/avr/14.1.0/avr25/libgcc.a(_exit.o)
+ .text.libgcc.builtins
+                0x00000000        0x0 /opt/AVR/root/lib/gcc/avr/14.1.0/avr25/libgcc.a(_exit.o)
+ .text.libgcc.fmul
+                0x00000000        0x0 /opt/AVR/root/lib/gcc/avr/14.1.0/avr25/libgcc.a(_exit.o)
+ .text.libgcc.fixed
+                0x00000000        0x0 /opt/AVR/root/lib/gcc/avr/14.1.0/avr25/libgcc.a(_exit.o)
+ .text          0x00000000        0x0 /opt/AVR/root/lib/gcc/avr/14.1.0/avr25/libgcc.a(_copy_data.o)
+ .data          0x00000000        0x0 /opt/AVR/root/lib/gcc/avr/14.1.0/avr25/libgcc.a(_copy_data.o)
+ .bss           0x00000000        0x0 /opt/AVR/root/lib/gcc/avr/14.1.0/avr25/libgcc.a(_copy_data.o)
+ .text.libgcc.mul
+                0x00000000        0x0 /opt/AVR/root/lib/gcc/avr/14.1.0/avr25/libgcc.a(_copy_data.o)
+ .text.libgcc.div
+                0x00000000        0x0 /opt/AVR/root/lib/gcc/avr/14.1.0/avr25/libgcc.a(_copy_data.o)
+ .text.libgcc   0x00000000        0x0 /opt/AVR/root/lib/gcc/avr/14.1.0/avr25/libgcc.a(_copy_data.o)
+ .text.libgcc.prologue
+                0x00000000        0x0 /opt/AVR/root/lib/gcc/avr/14.1.0/avr25/libgcc.a(_copy_data.o)
+ .text.libgcc.builtins
+                0x00000000        0x0 /opt/AVR/root/lib/gcc/avr/14.1.0/avr25/libgcc.a(_copy_data.o)
+ .text.libgcc.fmul
+                0x00000000        0x0 /opt/AVR/root/lib/gcc/avr/14.1.0/avr25/libgcc.a(_copy_data.o)
+ .text.libgcc.fixed
+                0x00000000        0x0 /opt/AVR/root/lib/gcc/avr/14.1.0/avr25/libgcc.a(_copy_data.o)
+ .text          0x00000000        0x0 /opt/AVR/root/lib/gcc/avr/14.1.0/avr25/libgcc.a(_clear_bss.o)
+ .data          0x00000000        0x0 /opt/AVR/root/lib/gcc/avr/14.1.0/avr25/libgcc.a(_clear_bss.o)
+ .bss           0x00000000        0x0 /opt/AVR/root/lib/gcc/avr/14.1.0/avr25/libgcc.a(_clear_bss.o)
+ .text.libgcc.mul
+                0x00000000        0x0 /opt/AVR/root/lib/gcc/avr/14.1.0/avr25/libgcc.a(_clear_bss.o)
+ .text.libgcc.div
+                0x00000000        0x0 /opt/AVR/root/lib/gcc/avr/14.1.0/avr25/libgcc.a(_clear_bss.o)
+ .text.libgcc   0x00000000        0x0 /opt/AVR/root/lib/gcc/avr/14.1.0/avr25/libgcc.a(_clear_bss.o)
+ .text.libgcc.prologue
+                0x00000000        0x0 /opt/AVR/root/lib/gcc/avr/14.1.0/avr25/libgcc.a(_clear_bss.o)
+ .text.libgcc.builtins
+                0x00000000        0x0 /opt/AVR/root/lib/gcc/avr/14.1.0/avr25/libgcc.a(_clear_bss.o)
+ .text.libgcc.fmul
+                0x00000000        0x0 /opt/AVR/root/lib/gcc/avr/14.1.0/avr25/libgcc.a(_clear_bss.o)
+ .text.libgcc.fixed
+                0x00000000        0x0 /opt/AVR/root/lib/gcc/avr/14.1.0/avr25/libgcc.a(_clear_bss.o)
+ .text          0x00000000        0x0 /opt/AVR/root/lib/gcc/avr/14.1.0/avr25/libgcc.a(_ctors.o)
+ .data          0x00000000        0x0 /opt/AVR/root/lib/gcc/avr/14.1.0/avr25/libgcc.a(_ctors.o)
+ .bss           0x00000000        0x0 /opt/AVR/root/lib/gcc/avr/14.1.0/avr25/libgcc.a(_ctors.o)
+ .text.libgcc.mul
+                0x00000000        0x0 /opt/AVR/root/lib/gcc/avr/14.1.0/avr25/libgcc.a(_ctors.o)
+ .text.libgcc.div
+                0x00000000        0x0 /opt/AVR/root/lib/gcc/avr/14.1.0/avr25/libgcc.a(_ctors.o)
+ .text.libgcc   0x00000000        0x0 /opt/AVR/root/lib/gcc/avr/14.1.0/avr25/libgcc.a(_ctors.o)
+ .text.libgcc.prologue
+                0x00000000        0x0 /opt/AVR/root/lib/gcc/avr/14.1.0/avr25/libgcc.a(_ctors.o)
+ .text.libgcc.builtins
+                0x00000000        0x0 /opt/AVR/root/lib/gcc/avr/14.1.0/avr25/libgcc.a(_ctors.o)
+ .text.libgcc.fmul
+                0x00000000        0x0 /opt/AVR/root/lib/gcc/avr/14.1.0/avr25/libgcc.a(_ctors.o)
+ .text.libgcc.fixed
+                0x00000000        0x0 /opt/AVR/root/lib/gcc/avr/14.1.0/avr25/libgcc.a(_ctors.o)
+ .text          0x00000000        0x0 /opt/AVR/root/lib/gcc/avr/14.1.0/avr25/libgcc.a(_tablejump2.o)
+ .data          0x00000000        0x0 /opt/AVR/root/lib/gcc/avr/14.1.0/avr25/libgcc.a(_tablejump2.o)
+ .bss           0x00000000        0x0 /opt/AVR/root/lib/gcc/avr/14.1.0/avr25/libgcc.a(_tablejump2.o)
+ .text.libgcc.mul
+                0x00000000        0x0 /opt/AVR/root/lib/gcc/avr/14.1.0/avr25/libgcc.a(_tablejump2.o)
+ .text.libgcc.div
+                0x00000000        0x0 /opt/AVR/root/lib/gcc/avr/14.1.0/avr25/libgcc.a(_tablejump2.o)
+ .text.libgcc.prologue
+                0x00000000        0x0 /opt/AVR/root/lib/gcc/avr/14.1.0/avr25/libgcc.a(_tablejump2.o)
+ .text.libgcc.builtins
+                0x00000000        0x0 /opt/AVR/root/lib/gcc/avr/14.1.0/avr25/libgcc.a(_tablejump2.o)
+ .text.libgcc.fmul
+                0x00000000        0x0 /opt/AVR/root/lib/gcc/avr/14.1.0/avr25/libgcc.a(_tablejump2.o)
+ .text.libgcc.fixed
+                0x00000000        0x0 /opt/AVR/root/lib/gcc/avr/14.1.0/avr25/libgcc.a(_tablejump2.o)
+ .text          0x00000000        0x0 /opt/AVR/root/lib/gcc/avr/14.1.0/../../../../avr/lib/avr25/libc.a(memset.o)
+ .data          0x00000000        0x0 /opt/AVR/root/lib/gcc/avr/14.1.0/../../../../avr/lib/avr25/libc.a(memset.o)
+ .bss           0x00000000        0x0 /opt/AVR/root/lib/gcc/avr/14.1.0/../../../../avr/lib/avr25/libc.a(memset.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+text             0x00000000         0x00002000         xr
+data             0x00800060         0x0000ffa0         rw!x
+eeprom           0x00810000         0x00010000         rw!x
+fuse             0x00820000         0x00000003         rw!x
+lock             0x00830000         0x00000400         rw!x
+signature        0x00840000         0x00000400         rw!x
+user_signatures  0x00850000         0x00000400         rw!x
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD /opt/AVR/root/lib/gcc/avr/14.1.0/../../../../avr/lib/avr25/crtattiny85.o
+LOAD ./eduardino/eduardino.o
+LOAD ./main.o
+LOAD /opt/AVR/root/lib/gcc/avr/14.1.0/avr25/libgcc.a
+LOAD /opt/AVR/root/lib/gcc/avr/14.1.0/../../../../avr/lib/avr25/libm.a
+START GROUP
+LOAD /opt/AVR/root/lib/gcc/avr/14.1.0/avr25/libgcc.a
+LOAD /opt/AVR/root/lib/gcc/avr/14.1.0/../../../../avr/lib/avr25/libm.a
+LOAD /opt/AVR/root/lib/gcc/avr/14.1.0/../../../../avr/lib/avr25/libc.a
+LOAD /opt/AVR/root/lib/gcc/avr/14.1.0/../../../../avr/lib/avr25/libattiny85.a
+END GROUP
+                0x00002000                        __TEXT_REGION_LENGTH__ = DEFINED (__TEXT_REGION_LENGTH__)?__TEXT_REGION_LENGTH__:0x2000
+                0x00800060                        __DATA_REGION_ORIGIN__ = DEFINED (__DATA_REGION_ORIGIN__)?__DATA_REGION_ORIGIN__:0x800060
+                0x0000ffa0                        __DATA_REGION_LENGTH__ = DEFINED (__DATA_REGION_LENGTH__)?__DATA_REGION_LENGTH__:0xffa0
+                0x00010000                        __EEPROM_REGION_LENGTH__ = DEFINED (__EEPROM_REGION_LENGTH__)?__EEPROM_REGION_LENGTH__:0x10000
+                [0x00000003]                      __FUSE_REGION_LENGTH__ = DEFINED (__FUSE_REGION_LENGTH__)?__FUSE_REGION_LENGTH__:0x400
+                0x00000400                        __LOCK_REGION_LENGTH__ = DEFINED (__LOCK_REGION_LENGTH__)?__LOCK_REGION_LENGTH__:0x400
+                0x00000400                        __SIGNATURE_REGION_LENGTH__ = DEFINED (__SIGNATURE_REGION_LENGTH__)?__SIGNATURE_REGION_LENGTH__:0x400
+                0x00000400                        __USER_SIGNATURE_REGION_LENGTH__ = DEFINED (__USER_SIGNATURE_REGION_LENGTH__)?__USER_SIGNATURE_REGION_LENGTH__:0x400
+
+.hash
+ *(.hash)
+
+.dynsym
+ *(.dynsym)
+
+.dynstr
+ *(.dynstr)
+
+.gnu.version
+ *(.gnu.version)
+
+.gnu.version_d
+ *(.gnu.version_d)
+
+.gnu.version_r
+ *(.gnu.version_r)
+
+.rel.init
+ *(.rel.init)
+
+.rela.init
+ *(.rela.init)
+
+.rel.text
+ *(.rel.text)
+ *(.rel.text.*)
+ *(.rel.gnu.linkonce.t*)
+
+.rela.text
+ *(.rela.text)
+ *(.rela.text.*)
+ *(.rela.gnu.linkonce.t*)
+
+.rel.fini
+ *(.rel.fini)
+
+.rela.fini
+ *(.rela.fini)
+
+.rel.rodata
+ *(.rel.rodata)
+ *(.rel.rodata.*)
+ *(.rel.gnu.linkonce.r*)
+
+.rela.rodata
+ *(.rela.rodata)
+ *(.rela.rodata.*)
+ *(.rela.gnu.linkonce.r*)
+
+.rel.data
+ *(.rel.data)
+ *(.rel.data.*)
+ *(.rel.gnu.linkonce.d*)
+
+.rela.data
+ *(.rela.data)
+ *(.rela.data.*)
+ *(.rela.gnu.linkonce.d*)
+
+.rel.ctors
+ *(.rel.ctors)
+
+.rela.ctors
+ *(.rela.ctors)
+
+.rel.dtors
+ *(.rel.dtors)
+
+.rela.dtors
+ *(.rela.dtors)
+
+.rel.got
+ *(.rel.got)
+
+.rela.got
+ *(.rela.got)
+
+.rel.bss
+ *(.rel.bss)
+
+.rela.bss
+ *(.rela.bss)
+
+.rel.plt
+ *(.rel.plt)
+
+.rela.plt
+ *(.rela.plt)
+
+.text           0x00000000      0xa08
+ *(.vectors)
+ .vectors       0x00000000       0x1e /opt/AVR/root/lib/gcc/avr/14.1.0/../../../../avr/lib/avr25/crtattiny85.o
+                0x00000000                __vectors
+                0x00000000                __vector_default
+ *(.vectors)
+ *(.progmem.gcc*)
+                0x0000001e                        . = ALIGN (0x2)
+                0x0000001e                        __trampolines_start = .
+ *(.trampolines)
+ .trampolines   0x0000001e        0x0 linker stubs
+ *(.trampolines*)
+                0x0000001e                        __trampolines_end = .
+ *libprintf_flt.a:*(.progmem.data)
+ *libc.a:*(.progmem.data)
+ *(.progmem.*)
+ .progmem.data._ZZN9SSD1306_C5beginEvE15startupSequence
+                0x0000001e       0x18 ./main.o
+                0x0000001e                _ZZN9SSD1306_C5beginEvE15startupSequence
+ .progmem.data._ZL12font5x7_data
+                0x00000036      0x1db ./main.o
+                0x00000212                        . = ALIGN (0x2)
+ *fill*         0x00000211        0x1 
+ *(.lowtext)
+ *(.lowtext*)
+                0x00000212                        __ctors_start = .
+ *(.ctors)
+ .ctors         0x00000212        0x2 ./main.o
+                0x00000214                        __ctors_end = .
+                0x00000214                        __dtors_start = .
+ *(.dtors)
+                0x00000214                        __dtors_end = .
+ SORT_BY_NAME(*)(.ctors)
+ SORT_BY_NAME(*)(.dtors)
+ *(.init0)
+ .init0         0x00000214        0x0 /opt/AVR/root/lib/gcc/avr/14.1.0/../../../../avr/lib/avr25/crtattiny85.o
+                0x00000214                __init
+ *(.init0)
+ *(.init1)
+ *(.init1)
+ *(.init2)
+ .init2         0x00000214        0xc /opt/AVR/root/lib/gcc/avr/14.1.0/../../../../avr/lib/avr25/crtattiny85.o
+ *(.init2)
+ *(.init3)
+ *(.init3)
+ *(.init4)
+ .init4         0x00000220       0x16 /opt/AVR/root/lib/gcc/avr/14.1.0/avr25/libgcc.a(_copy_data.o)
+                0x00000220                __do_copy_data
+ .init4         0x00000236       0x10 /opt/AVR/root/lib/gcc/avr/14.1.0/avr25/libgcc.a(_clear_bss.o)
+                0x00000236                __do_clear_bss
+ *(.init4)
+ *(.init5)
+ *(.init5)
+ *(.init6)
+ .init6         0x00000246       0x14 /opt/AVR/root/lib/gcc/avr/14.1.0/avr25/libgcc.a(_ctors.o)
+                0x00000246                __do_global_ctors
+ *(.init6)
+ *(.init7)
+ *(.init7)
+ *(.init8)
+ *(.init8)
+ *(.init9)
+ .init9         0x0000025a        0x4 /opt/AVR/root/lib/gcc/avr/14.1.0/../../../../avr/lib/avr25/crtattiny85.o
+ *(.init9)
+ *(.text)
+ .text          0x0000025e        0x2 /opt/AVR/root/lib/gcc/avr/14.1.0/../../../../avr/lib/avr25/crtattiny85.o
+                0x0000025e                __vector_1
+                0x0000025e                __vector_12
+                0x0000025e                __bad_interrupt
+                0x0000025e                __vector_6
+                0x0000025e                __vector_3
+                0x0000025e                __vector_11
+                0x0000025e                __vector_13
+                0x0000025e                __vector_7
+                0x0000025e                __vector_5
+                0x0000025e                __vector_4
+                0x0000025e                __vector_9
+                0x0000025e                __vector_2
+                0x0000025e                __vector_8
+                0x0000025e                __vector_14
+                0x0000025e                __vector_10
+                0x00000260                        . = ALIGN (0x2)
+ *(.text.*)
+ .text._Z8delay_msj
+                0x00000260       0x1e ./eduardino/eduardino.o
+                0x00000260                _Z8delay_msj
+ .text.main     0x0000027e        0x6 ./eduardino/eduardino.o
+                0x0000027e                main
+ .text._ZNSt6ranges14transform_viewINS_9iota_viewIiSt22unreachable_sentinel_tEEZ13generateRangeiiiEUlT_E_E5beginEv
+                0x00000284        0xc ./main.o
+                0x00000284                _ZNSt6ranges14transform_viewINS_9iota_viewIiSt22unreachable_sentinel_tEEZ13generateRangeiiiEUlT_E_E5beginEv
+ .text._ZN8analog_c5beginEv
+                0x00000290        0xa ./main.o
+                0x00000290                _ZN8analog_c5beginEv
+ .text._ZN5I2C_c6sda_hiEv
+                0x0000029a        0xe ./main.o
+                0x0000029a                _ZN5I2C_c6sda_hiEv
+ .text._ZN5I2C_c7sda_lowEv
+                0x000002a8        0xe ./main.o
+                0x000002a8                _ZN5I2C_c7sda_lowEv
+ .text._ZN5I2C_c6scl_hiEv
+                0x000002b6       0x16 ./main.o
+                0x000002b6                _ZN5I2C_c6scl_hiEv
+ .text._ZN5I2C_c7scl_lowEv
+                0x000002cc       0x16 ./main.o
+                0x000002cc                _ZN5I2C_c7scl_lowEv
+ .text._ZN5I2C_c8scl_tickEv
+                0x000002e2       0x22 ./main.o
+                0x000002e2                _ZN5I2C_c8scl_tickEv
+ .text._ZN5I2C_c4stopEv
+                0x00000304       0x1c ./main.o
+                0x00000304                _ZN5I2C_c4stopEv
+ .text._ZN5I2C_c9check_ackEv
+                0x00000320       0x22 ./main.o
+                0x00000320                _ZN5I2C_c9check_ackEv
+ .text._ZN5I2C_c7send_u8Eh
+                0x00000342       0x44 ./main.o
+                0x00000342                _ZN5I2C_c7send_u8Eh
+ .text._ZN5I2C_c5startENS_4modeE
+                0x00000386       0x28 ./main.o
+                0x00000386                _ZN5I2C_c5startENS_4modeE
+ .text._ZN9SSD1306_C12clearDisplayEv
+                0x000003ae       0x1c ./main.o
+                0x000003ae                _ZN9SSD1306_C12clearDisplayEv
+ .text._ZN12oneWireBus_c5beginEv
+                0x000003ca       0x12 ./main.o
+                0x000003ca                _ZN12oneWireBus_c5beginEv
+ .text._ZN12oneWireBus_c5resetEv
+                0x000003dc       0x32 ./main.o
+                0x000003dc                _ZN12oneWireBus_c5resetEv
+ .text._ZN12oneWireBus_c9writeBitsEhh
+                0x0000040e       0x62 ./main.o
+                0x0000040e                _ZN12oneWireBus_c9writeBitsEhh
+ .text._ZN12oneWireBus_c8readBitsEh
+                0x00000470       0x4a ./main.o
+                0x00000470                _ZN12oneWireBus_c8readBitsEh
+ .text._ZN11genericIO_cI12oneWireBus_cE3TxsEPhh
+                0x000004ba       0x42 ./main.o
+                0x000004ba                _ZN11genericIO_cI12oneWireBus_cE3TxsEPhh
+ .text._ZN12oneWireBus_c3cmdEhb
+                0x000004fc       0x72 ./main.o
+                0x000004fc                _ZN12oneWireBus_c3cmdEhb
+ .text._ZN12oneWireBus_c13romSearchNextEv
+                0x0000056e       0xdc ./main.o
+                0x0000056e                _ZN12oneWireBus_c13romSearchNextEv
+ .text._ZN7DS18B2013setResolutionEh
+                0x0000064a       0x58 ./main.o
+                0x0000064a                _ZN7DS18B2013setResolutionEh
+ .text._ZN7DS18B205beginEh
+                0x000006a2       0x34 ./main.o
+                0x000006a2                _ZN7DS18B205beginEh
+ .text._ZN9SSD1306_CC2Ev
+                0x000006d6       0x3c ./main.o
+                0x000006d6                _ZN9SSD1306_CC1Ev
+                0x000006d6                _ZN9SSD1306_CC2Ev
+ .text._Z41__static_initialization_and_destruction_0v
+                0x00000712       0x38 ./main.o
+ .text._ZNSt6ranges15take_while_viewINS_14transform_viewINS_9iota_viewIiSt22unreachable_sentinel_tEEZ13generateRangeiiiEUlT_E_EEZ13generateRangeiiiEUlS5_E0_E5beginEvQnt13__simple_viewIS5_E
+                0x0000074a        0x4 ./main.o
+                0x0000074a                _ZNSt6ranges15take_while_viewINS_14transform_viewINS_9iota_viewIiSt22unreachable_sentinel_tEEZ13generateRangeiiiEUlT_E_EEZ13generateRangeiiiEUlS5_E0_E5beginEv
+                0x0000074a                _ZNSt6ranges15take_while_viewINS_14transform_viewINS_9iota_viewIiSt22unreachable_sentinel_tEEZ13generateRangeiiiEUlT_E_EEZ13generateRangeiiiEUlS5_E0_E5beginEvQnt13__simple_viewIS5_E
+ .text._Z4loopv
+                0x0000074e       0x84 ./main.o
+                0x0000074e                _Z4loopv
+ .text._ZN9SSD1306_C7commandIJhEEEvDpRKT_
+                0x000007d2       0x6a ./main.o
+                0x000007d2                _ZN9SSD1306_C7commandIJhEEEvDpRKT_
+ .text._ZN9SSD1306_C7commandIJiEEEvDpRKT_
+                0x0000083c       0x6a ./main.o
+                0x0000083c                _ZN9SSD1306_C7commandIJiEEEvDpRKT_
+ .text._ZN9SSD1306_C5setXYEhh
+                0x000008a6       0x80 ./main.o
+                0x000008a6                _ZN9SSD1306_C5setXYEhh
+ .text._ZN9SSD1306_C5beginEv
+                0x00000926       0x82 ./main.o
+                0x00000926                _ZN9SSD1306_C5beginEv
+ .text._Z5setupv
+                0x000009a8       0x1c ./main.o
+                0x000009a8                _Z5setupv
+ .text._GLOBAL__sub_I_font5x7
+                0x000009c4        0x4 ./main.o
+ .text.libgcc.mul
+                0x000009c8       0x22 /opt/AVR/root/lib/gcc/avr/14.1.0/avr25/libgcc.a(_mulhi3.o)
+                0x000009c8                __mulhi3
+ .text.libgcc   0x000009ea        0xc /opt/AVR/root/lib/gcc/avr/14.1.0/avr25/libgcc.a(_tablejump2.o)
+                0x000009ea                __tablejump2__
+ .text.avr-libc
+                0x000009f6        0xe /opt/AVR/root/lib/gcc/avr/14.1.0/../../../../avr/lib/avr25/libc.a(memset.o)
+                0x000009f6                memset
+                0x00000a04                        . = ALIGN (0x2)
+ *(.fini9)
+ .fini9         0x00000a04        0x0 /opt/AVR/root/lib/gcc/avr/14.1.0/avr25/libgcc.a(_exit.o)
+                0x00000a04                exit
+                0x00000a04                _exit
+ *(.fini9)
+ *(.fini8)
+ *(.fini8)
+ *(.fini7)
+ *(.fini7)
+ *(.fini6)
+ *(.fini6)
+ *(.fini5)
+ *(.fini5)
+ *(.fini4)
+ *(.fini4)
+ *(.fini3)
+ *(.fini3)
+ *(.fini2)
+ *(.fini2)
+ *(.fini1)
+ *(.fini1)
+ *(.fini0)
+ .fini0         0x00000a04        0x4 /opt/AVR/root/lib/gcc/avr/14.1.0/avr25/libgcc.a(_exit.o)
+ *(.fini0)
+ *(.hightext)
+ *(.hightext*)
+ *(.progmemx.*)
+                0x00000a08                        . = ALIGN (0x2)
+ *(.jumptables)
+ *(.jumptables*)
+                0x00000a08                        _etext = .
+
+.data           0x00800060        0x8 load address 0x00000a08
+                0x00800060                        PROVIDE (__data_start = .)
+ *(.data)
+ *(.data*)
+ .data.font5x7  0x00800060        0x7 ./main.o
+                0x00800060                font5x7
+ *(.gnu.linkonce.d*)
+ *(.rodata)
+ *(.rodata*)
+ *(.gnu.linkonce.r*)
+                0x00800068                        . = ALIGN (0x2)
+ *fill*         0x00800067        0x1 
+                0x00800068                        _edata = .
+                0x00800068                        PROVIDE (__data_end = .)
+
+.bss            0x00800068      0x12e
+                0x00800068                        PROVIDE (__bss_start = .)
+ *(.bss)
+ *(.bss*)
+ .bss._ZL7display
+                0x00800068      0x10e ./main.o
+ .bss._ZL10tempSensor
+                0x00800176       0x14 ./main.o
+ .bss._ZL6ow_bus
+                0x0080018a        0x9 ./main.o
+ .bss._ZL7i2c_bus
+                0x00800193        0x2 ./main.o
+ .bss._ZL6analog
+                0x00800195        0x1 ./main.o
+ *(COMMON)
+                0x00800196                        PROVIDE (__bss_end = .)
+                0x00000a08                        __data_load_start = LOADADDR (.data)
+                0x00000a10                        __data_load_end = (__data_load_start + SIZEOF (.data))
+
+.noinit         0x00800196        0x0
+                [!provide]                        PROVIDE (__noinit_start = .)
+ *(.noinit .noinit.* .gnu.linkonce.n.*)
+                [!provide]                        PROVIDE (__noinit_end = .)
+                0x00800196                        _end = .
+                [!provide]                        PROVIDE (__heap_start = .)
+
+.eeprom         0x00810000        0x0
+ *(.eeprom*)
+                0x00810000                        __eeprom_end = .
+
+.fuse
+ *(.fuse)
+ *(.lfuse)
+ *(.hfuse)
+ *(.efuse)
+
+.lock
+ *(.lock*)
+
+.signature
+ *(.signature*)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x00000000       0x12
+ *(.comment)
+ .comment       0x00000000       0x12 ./eduardino/eduardino.o
+                                 0x13 (size before relaxing)
+ .comment       0x00000012       0x13 ./main.o
+
+.note.gnu.avr.deviceinfo
+                0x00000000       0x3c
+ .note.gnu.avr.deviceinfo
+                0x00000000       0x3c /opt/AVR/root/lib/gcc/avr/14.1.0/../../../../avr/lib/avr25/crtattiny85.o
+
+.gnu.build.attributes
+ *(.gnu.build.attributes .gnu.build.attributes.*)
+
+.note.gnu.build-id
+ *(.note.gnu.build-id)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x00000000      0x220
+ *(.debug_aranges)
+ .debug_aranges
+                0x00000000       0x30 ./eduardino/eduardino.o
+ .debug_aranges
+                0x00000030      0x110 ./main.o
+ .debug_aranges
+                0x00000140       0x20 /opt/AVR/root/lib/gcc/avr/14.1.0/avr25/libgcc.a(_mulhi3.o)
+ .debug_aranges
+                0x00000160       0x20 /opt/AVR/root/lib/gcc/avr/14.1.0/avr25/libgcc.a(_exit.o)
+ .debug_aranges
+                0x00000180       0x20 /opt/AVR/root/lib/gcc/avr/14.1.0/avr25/libgcc.a(_copy_data.o)
+ .debug_aranges
+                0x000001a0       0x20 /opt/AVR/root/lib/gcc/avr/14.1.0/avr25/libgcc.a(_clear_bss.o)
+ .debug_aranges
+                0x000001c0       0x20 /opt/AVR/root/lib/gcc/avr/14.1.0/avr25/libgcc.a(_ctors.o)
+ .debug_aranges
+                0x000001e0       0x20 /opt/AVR/root/lib/gcc/avr/14.1.0/avr25/libgcc.a(_tablejump2.o)
+ .debug_aranges
+                0x00000200       0x20 /opt/AVR/root/lib/gcc/avr/14.1.0/../../../../avr/lib/avr25/libc.a(memset.o)
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x00000000     0xdcb2
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x00000000      0x420 /opt/AVR/root/lib/gcc/avr/14.1.0/../../../../avr/lib/avr25/crtattiny85.o
+ .debug_info    0x00000420     0x27aa ./eduardino/eduardino.o
+ .debug_info    0x00002bca     0xafdb ./main.o
+ .debug_info    0x0000dba5       0x24 /opt/AVR/root/lib/gcc/avr/14.1.0/avr25/libgcc.a(_mulhi3.o)
+ .debug_info    0x0000dbc9       0x24 /opt/AVR/root/lib/gcc/avr/14.1.0/avr25/libgcc.a(_exit.o)
+ .debug_info    0x0000dbed       0x24 /opt/AVR/root/lib/gcc/avr/14.1.0/avr25/libgcc.a(_copy_data.o)
+ .debug_info    0x0000dc11       0x24 /opt/AVR/root/lib/gcc/avr/14.1.0/avr25/libgcc.a(_clear_bss.o)
+ .debug_info    0x0000dc35       0x24 /opt/AVR/root/lib/gcc/avr/14.1.0/avr25/libgcc.a(_ctors.o)
+ .debug_info    0x0000dc59       0x24 /opt/AVR/root/lib/gcc/avr/14.1.0/avr25/libgcc.a(_tablejump2.o)
+ .debug_info    0x0000dc7d       0x35 /opt/AVR/root/lib/gcc/avr/14.1.0/../../../../avr/lib/avr25/libc.a(memset.o)
+
+.debug_abbrev   0x00000000     0x1853
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000      0x3e8 /opt/AVR/root/lib/gcc/avr/14.1.0/../../../../avr/lib/avr25/crtattiny85.o
+ .debug_abbrev  0x000003e8      0x5f5 ./eduardino/eduardino.o
+ .debug_abbrev  0x000009dd      0xddd ./main.o
+ .debug_abbrev  0x000017ba       0x14 /opt/AVR/root/lib/gcc/avr/14.1.0/avr25/libgcc.a(_mulhi3.o)
+ .debug_abbrev  0x000017ce       0x14 /opt/AVR/root/lib/gcc/avr/14.1.0/avr25/libgcc.a(_exit.o)
+ .debug_abbrev  0x000017e2       0x14 /opt/AVR/root/lib/gcc/avr/14.1.0/avr25/libgcc.a(_copy_data.o)
+ .debug_abbrev  0x000017f6       0x14 /opt/AVR/root/lib/gcc/avr/14.1.0/avr25/libgcc.a(_clear_bss.o)
+ .debug_abbrev  0x0000180a       0x14 /opt/AVR/root/lib/gcc/avr/14.1.0/avr25/libgcc.a(_ctors.o)
+ .debug_abbrev  0x0000181e       0x14 /opt/AVR/root/lib/gcc/avr/14.1.0/avr25/libgcc.a(_tablejump2.o)
+ .debug_abbrev  0x00001832       0x21 /opt/AVR/root/lib/gcc/avr/14.1.0/../../../../avr/lib/avr25/libc.a(memset.o)
+
+.debug_line     0x00000000     0x2d14
+ *(.debug_line .debug_line.* .debug_line_end)
+ .debug_line    0x00000000      0x100 /opt/AVR/root/lib/gcc/avr/14.1.0/../../../../avr/lib/avr25/crtattiny85.o
+ .debug_line    0x00000100      0x394 ./eduardino/eduardino.o
+ .debug_line    0x00000494     0x251d ./main.o
+ .debug_line    0x000029b1       0xab /opt/AVR/root/lib/gcc/avr/14.1.0/avr25/libgcc.a(_mulhi3.o)
+ .debug_line    0x00002a5c       0x51 /opt/AVR/root/lib/gcc/avr/14.1.0/avr25/libgcc.a(_exit.o)
+ .debug_line    0x00002aad       0x87 /opt/AVR/root/lib/gcc/avr/14.1.0/avr25/libgcc.a(_copy_data.o)
+ .debug_line    0x00002b34       0x75 /opt/AVR/root/lib/gcc/avr/14.1.0/avr25/libgcc.a(_clear_bss.o)
+ .debug_line    0x00002ba9       0x81 /opt/AVR/root/lib/gcc/avr/14.1.0/avr25/libgcc.a(_ctors.o)
+ .debug_line    0x00002c2a       0x69 /opt/AVR/root/lib/gcc/avr/14.1.0/avr25/libgcc.a(_tablejump2.o)
+ .debug_line    0x00002c93       0x81 /opt/AVR/root/lib/gcc/avr/14.1.0/../../../../avr/lib/avr25/libc.a(memset.o)
+
+.debug_frame    0x00000000      0x3cc
+ *(.debug_frame)
+ .debug_frame   0x00000000       0x44 ./eduardino/eduardino.o
+ .debug_frame   0x00000044      0x388 ./main.o
+
+.debug_str      0x00000000    0x1cfee
+ *(.debug_str)
+ .debug_str     0x00000000      0x16c /opt/AVR/root/lib/gcc/avr/14.1.0/../../../../avr/lib/avr25/crtattiny85.o
+ .debug_str     0x0000016c    0x1ce82 ./eduardino/eduardino.o
+                              0x12f06 (size before relaxing)
+ .debug_str     0x0001cfee    0x1cfe7 ./main.o
+ .debug_str     0x0001cfee       0x6f /opt/AVR/root/lib/gcc/avr/14.1.0/avr25/libgcc.a(_mulhi3.o)
+ .debug_str     0x0001cfee       0x6f /opt/AVR/root/lib/gcc/avr/14.1.0/avr25/libgcc.a(_exit.o)
+ .debug_str     0x0001cfee       0x6f /opt/AVR/root/lib/gcc/avr/14.1.0/avr25/libgcc.a(_copy_data.o)
+ .debug_str     0x0001cfee       0x6f /opt/AVR/root/lib/gcc/avr/14.1.0/avr25/libgcc.a(_clear_bss.o)
+ .debug_str     0x0001cfee       0x6f /opt/AVR/root/lib/gcc/avr/14.1.0/avr25/libgcc.a(_ctors.o)
+ .debug_str     0x0001cfee       0x6f /opt/AVR/root/lib/gcc/avr/14.1.0/avr25/libgcc.a(_tablejump2.o)
+ .debug_str     0x0001cfee       0x69 /opt/AVR/root/lib/gcc/avr/14.1.0/../../../../avr/lib/avr25/libc.a(memset.o)
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges
+ *(.debug_ranges)
+
+.debug_addr
+ *(.debug_addr)
+
+.debug_line_str
+                0x00000000      0x93e
+ *(.debug_line_str)
+ .debug_line_str
+                0x00000000      0x93e ./eduardino/eduardino.o
+                                0x73c (size before relaxing)
+ .debug_line_str
+                0x0000093e      0x937 ./main.o
+ .debug_line_str
+                0x0000093e       0x63 /opt/AVR/root/lib/gcc/avr/14.1.0/avr25/libgcc.a(_mulhi3.o)
+ .debug_line_str
+                0x0000093e       0x63 /opt/AVR/root/lib/gcc/avr/14.1.0/avr25/libgcc.a(_exit.o)
+ .debug_line_str
+                0x0000093e       0x63 /opt/AVR/root/lib/gcc/avr/14.1.0/avr25/libgcc.a(_copy_data.o)
+ .debug_line_str
+                0x0000093e       0x63 /opt/AVR/root/lib/gcc/avr/14.1.0/avr25/libgcc.a(_clear_bss.o)
+ .debug_line_str
+                0x0000093e       0x63 /opt/AVR/root/lib/gcc/avr/14.1.0/avr25/libgcc.a(_ctors.o)
+ .debug_line_str
+                0x0000093e       0x63 /opt/AVR/root/lib/gcc/avr/14.1.0/avr25/libgcc.a(_tablejump2.o)
+
+.debug_loclists
+                0x00000000     0x16c7
+ *(.debug_loclists)
+ .debug_loclists
+                0x00000000       0xba ./eduardino/eduardino.o
+ .debug_loclists
+                0x000000ba     0x160d ./main.o
+
+.debug_macro    0x00000000     0xc674
+ *(.debug_macro)
+ .debug_macro   0x00000000      0x499 ./eduardino/eduardino.o
+ .debug_macro   0x00000499      0xdba ./eduardino/eduardino.o
+ .debug_macro   0x00001253       0x1c ./eduardino/eduardino.o
+ .debug_macro   0x0000126f      0x1c9 ./eduardino/eduardino.o
+ .debug_macro   0x00001438       0x10 ./eduardino/eduardino.o
+ .debug_macro   0x00001448      0x1f2 ./eduardino/eduardino.o
+ .debug_macro   0x0000163a      0x1ee ./eduardino/eduardino.o
+ .debug_macro   0x00001828      0x895 ./eduardino/eduardino.o
+ .debug_macro   0x000020bd       0x10 ./eduardino/eduardino.o
+ .debug_macro   0x000020cd      0x88e ./eduardino/eduardino.o
+ .debug_macro   0x0000295b       0x94 ./eduardino/eduardino.o
+ .debug_macro   0x000029ef      0x91e ./eduardino/eduardino.o
+ .debug_macro   0x0000330d       0x1c ./eduardino/eduardino.o
+ .debug_macro   0x00003329       0x18 ./eduardino/eduardino.o
+ .debug_macro   0x00003341       0x4f ./eduardino/eduardino.o
+ .debug_macro   0x00003390       0x1f ./eduardino/eduardino.o
+ .debug_macro   0x000033af       0x28 ./eduardino/eduardino.o
+ .debug_macro   0x000033d7       0x2e ./eduardino/eduardino.o
+ .debug_macro   0x00003405       0x16 ./eduardino/eduardino.o
+ .debug_macro   0x0000341b      0x7f7 ./eduardino/eduardino.o
+ .debug_macro   0x00003c12       0x12 ./eduardino/eduardino.o
+ .debug_macro   0x00003c24       0x88 ./eduardino/eduardino.o
+ .debug_macro   0x00003cac       0x28 ./eduardino/eduardino.o
+ .debug_macro   0x00003cd4      0x7f0 ./eduardino/eduardino.o
+ .debug_macro   0x000044c4       0x12 ./eduardino/eduardino.o
+ .debug_macro   0x000044d6       0x1c ./eduardino/eduardino.o
+ .debug_macro   0x000044f2      0x7c6 ./eduardino/eduardino.o
+ .debug_macro   0x00004cb8       0xac ./eduardino/eduardino.o
+ .debug_macro   0x00004d64       0x3a ./eduardino/eduardino.o
+ .debug_macro   0x00004d9e      0x7b8 ./eduardino/eduardino.o
+ .debug_macro   0x00005556       0x10 ./eduardino/eduardino.o
+ .debug_macro   0x00005566      0x76b ./eduardino/eduardino.o
+ .debug_macro   0x00005cd1       0x12 ./eduardino/eduardino.o
+ .debug_macro   0x00005ce3      0x75d ./eduardino/eduardino.o
+ .debug_macro   0x00006440       0x16 ./eduardino/eduardino.o
+ .debug_macro   0x00006456      0x76b ./eduardino/eduardino.o
+ .debug_macro   0x00006bc1       0x10 ./eduardino/eduardino.o
+ .debug_macro   0x00006bd1      0x755 ./eduardino/eduardino.o
+ .debug_macro   0x00007326      0x197 ./eduardino/eduardino.o
+ .debug_macro   0x000074bd       0x10 ./eduardino/eduardino.o
+ .debug_macro   0x000074cd      0x750 ./eduardino/eduardino.o
+ .debug_macro   0x00007c1d       0x10 ./eduardino/eduardino.o
+ .debug_macro   0x00007c2d       0x11 ./eduardino/eduardino.o
+ .debug_macro   0x00007c3e       0x17 ./eduardino/eduardino.o
+ .debug_macro   0x00007c55       0x10 ./eduardino/eduardino.o
+ .debug_macro   0x00007c65      0x749 ./eduardino/eduardino.o
+ .debug_macro   0x000083ae       0x28 ./eduardino/eduardino.o
+ .debug_macro   0x000083d6      0x742 ./eduardino/eduardino.o
+ .debug_macro   0x00008b18       0x2e ./eduardino/eduardino.o
+ .debug_macro   0x00008b46      0x750 ./eduardino/eduardino.o
+ .debug_macro   0x00009296       0x10 ./eduardino/eduardino.o
+ .debug_macro   0x000092a6       0x2e ./eduardino/eduardino.o
+ .debug_macro   0x000092d4      0x749 ./eduardino/eduardino.o
+ .debug_macro   0x00009a1d       0x16 ./eduardino/eduardino.o
+ .debug_macro   0x00009a33      0x6f5 ./eduardino/eduardino.o
+ .debug_macro   0x0000a128       0x3c ./eduardino/eduardino.o
+ .debug_macro   0x0000a164       0x1c ./eduardino/eduardino.o
+ .debug_macro   0x0000a180       0x58 ./eduardino/eduardino.o
+ .debug_macro   0x0000a1d8      0x726 ./eduardino/eduardino.o
+ .debug_macro   0x0000a8fe      0x68c ./eduardino/eduardino.o
+ .debug_macro   0x0000af8a       0x16 ./eduardino/eduardino.o
+ .debug_macro   0x0000afa0       0x3c ./eduardino/eduardino.o
+ .debug_macro   0x0000afdc       0x16 ./eduardino/eduardino.o
+ .debug_macro   0x0000aff2       0x10 ./eduardino/eduardino.o
+ .debug_macro   0x0000b002      0x302 ./eduardino/eduardino.o
+ .debug_macro   0x0000b304       0x9e ./eduardino/eduardino.o
+ .debug_macro   0x0000b3a2      0x7dd ./eduardino/eduardino.o
+ .debug_macro   0x0000bb7f       0xd6 ./eduardino/eduardino.o
+ .debug_macro   0x0000bc55       0xc2 ./eduardino/eduardino.o
+ .debug_macro   0x0000bd17       0xbd ./eduardino/eduardino.o
+ .debug_macro   0x0000bdd4       0x34 ./eduardino/eduardino.o
+ .debug_macro   0x0000be08       0x18 ./eduardino/eduardino.o
+ .debug_macro   0x0000be20       0x34 ./eduardino/eduardino.o
+ .debug_macro   0x0000be54       0x10 ./eduardino/eduardino.o
+ .debug_macro   0x0000be64       0x64 ./eduardino/eduardino.o
+ .debug_macro   0x0000bec8       0x1c ./eduardino/eduardino.o
+ .debug_macro   0x0000bee4       0x53 ./eduardino/eduardino.o
+ .debug_macro   0x0000bf37       0x2e ./eduardino/eduardino.o
+ .debug_macro   0x0000bf65       0x10 ./eduardino/eduardino.o
+ .debug_macro   0x0000bf75       0xc6 ./eduardino/eduardino.o
+ .debug_macro   0x0000c03b       0x22 ./eduardino/eduardino.o
+ .debug_macro   0x0000c05d      0x15e ./eduardino/eduardino.o
+ .debug_macro   0x0000c1bb      0x4b9 ./main.o
+
+.debug_names
+ *(.debug_names)
+
+.debug_rnglists
+                0x00000000      0x106
+ *(.debug_rnglists)
+ .debug_rnglists
+                0x00000000       0x1f ./eduardino/eduardino.o
+ .debug_rnglists
+                0x0000001f       0xe7 ./main.o
+
+.debug_str_offsets
+ *(.debug_str_offsets)
+
+.debug_sup
+ *(.debug_sup)
+OUTPUT(mantita_controller.elf elf32-avr)
+LOAD linker stubs
+
+Cross Reference Table
+
+Symbol                                            File
+_Z4loopv                                          ./main.o
+                                                  ./eduardino/eduardino.o
+_Z5setupv                                         ./main.o
+                                                  ./eduardino/eduardino.o
+_Z8delay_msj                                      ./eduardino/eduardino.o
+                                                  ./main.o
+_Z8delay_usj                                      ./eduardino/eduardino.o
+_ZN11genericIO_cI12oneWireBus_cE3TxsEPhh          ./main.o
+_ZN12oneWireBus_c13romSearchNextEv                ./main.o
+_ZN12oneWireBus_c3cmdEhb                          ./main.o
+_ZN12oneWireBus_c5beginEv                         ./main.o
+_ZN12oneWireBus_c5resetEv                         ./main.o
+_ZN12oneWireBus_c8readBitsEh                      ./main.o
+_ZN12oneWireBus_c9writeBitsEhh                    ./main.o
+_ZN5I2C_c4stopEv                                  ./main.o
+_ZN5I2C_c5startENS_4modeE                         ./main.o
+_ZN5I2C_c6scl_hiEv                                ./main.o
+_ZN5I2C_c6sda_hiEv                                ./main.o
+_ZN5I2C_c7scl_lowEv                               ./main.o
+_ZN5I2C_c7sda_lowEv                               ./main.o
+_ZN5I2C_c7send_u8Eh                               ./main.o
+_ZN5I2C_c8scl_tickEv                              ./main.o
+_ZN5I2C_c9check_ackEv                             ./main.o
+_ZN7DS18B2013setResolutionEh                      ./main.o
+_ZN7DS18B205beginEh                               ./main.o
+_ZN8analog_c5beginEv                              ./main.o
+_ZN9SSD1306_C12clearDisplayEv                     ./main.o
+_ZN9SSD1306_C5beginEv                             ./main.o
+_ZN9SSD1306_C5setXYEhh                            ./main.o
+_ZN9SSD1306_C7commandIJhEEEvDpRKT_                ./main.o
+_ZN9SSD1306_C7commandIJiEEEvDpRKT_                ./main.o
+_ZN9SSD1306_CC1Ev                                 ./main.o
+_ZN9SSD1306_CC2Ev                                 ./main.o
+_ZNSt6ranges14transform_viewINS_9iota_viewIiSt22unreachable_sentinel_tEEZ13generateRangeiiiEUlT_E_E5beginEv ./main.o
+_ZNSt6ranges15take_while_viewINS_14transform_viewINS_9iota_viewIiSt22unreachable_sentinel_tEEZ13generateRangeiiiEUlT_E_EEZ13generateRangeiiiEUlS5_E0_E5beginEv ./main.o
+_ZNSt6ranges15take_while_viewINS_14transform_viewINS_9iota_viewIiSt22unreachable_sentinel_tEEZ13generateRangeiiiEUlT_E_EEZ13generateRangeiiiEUlS5_E0_E5beginEvQnt13__simple_viewIS5_E ./main.o
+_ZZN9SSD1306_C5beginEvE15startupSequence          ./main.o
+__FUSE_REGION_LENGTH__                            /opt/AVR/root/lib/gcc/avr/14.1.0/../../../../avr/lib/avr25/crtattiny85.o
+__bad_interrupt                                   /opt/AVR/root/lib/gcc/avr/14.1.0/../../../../avr/lib/avr25/crtattiny85.o
+__bss_end                                         /opt/AVR/root/lib/gcc/avr/14.1.0/avr25/libgcc.a(_clear_bss.o)
+__bss_start                                       /opt/AVR/root/lib/gcc/avr/14.1.0/avr25/libgcc.a(_clear_bss.o)
+__ctors_end                                       /opt/AVR/root/lib/gcc/avr/14.1.0/avr25/libgcc.a(_ctors.o)
+__ctors_start                                     /opt/AVR/root/lib/gcc/avr/14.1.0/avr25/libgcc.a(_ctors.o)
+__data_end                                        /opt/AVR/root/lib/gcc/avr/14.1.0/avr25/libgcc.a(_copy_data.o)
+__data_load_start                                 /opt/AVR/root/lib/gcc/avr/14.1.0/avr25/libgcc.a(_copy_data.o)
+__data_start                                      /opt/AVR/root/lib/gcc/avr/14.1.0/avr25/libgcc.a(_copy_data.o)
+__do_clear_bss                                    /opt/AVR/root/lib/gcc/avr/14.1.0/avr25/libgcc.a(_clear_bss.o)
+                                                  ./main.o
+__do_copy_data                                    /opt/AVR/root/lib/gcc/avr/14.1.0/avr25/libgcc.a(_copy_data.o)
+                                                  ./main.o
+__do_global_ctors                                 /opt/AVR/root/lib/gcc/avr/14.1.0/avr25/libgcc.a(_ctors.o)
+                                                  ./main.o
+__heap_end                                        /opt/AVR/root/lib/gcc/avr/14.1.0/../../../../avr/lib/avr25/crtattiny85.o
+__init                                            /opt/AVR/root/lib/gcc/avr/14.1.0/../../../../avr/lib/avr25/crtattiny85.o
+__mulhi3                                          /opt/AVR/root/lib/gcc/avr/14.1.0/avr25/libgcc.a(_mulhi3.o)
+                                                  ./main.o
+__stack                                           /opt/AVR/root/lib/gcc/avr/14.1.0/../../../../avr/lib/avr25/crtattiny85.o
+__tablejump2__                                    /opt/AVR/root/lib/gcc/avr/14.1.0/avr25/libgcc.a(_tablejump2.o)
+                                                  /opt/AVR/root/lib/gcc/avr/14.1.0/avr25/libgcc.a(_ctors.o)
+__vector_1                                        /opt/AVR/root/lib/gcc/avr/14.1.0/../../../../avr/lib/avr25/crtattiny85.o
+__vector_10                                       /opt/AVR/root/lib/gcc/avr/14.1.0/../../../../avr/lib/avr25/crtattiny85.o
+__vector_11                                       /opt/AVR/root/lib/gcc/avr/14.1.0/../../../../avr/lib/avr25/crtattiny85.o
+__vector_12                                       /opt/AVR/root/lib/gcc/avr/14.1.0/../../../../avr/lib/avr25/crtattiny85.o
+__vector_13                                       /opt/AVR/root/lib/gcc/avr/14.1.0/../../../../avr/lib/avr25/crtattiny85.o
+__vector_14                                       /opt/AVR/root/lib/gcc/avr/14.1.0/../../../../avr/lib/avr25/crtattiny85.o
+__vector_2                                        /opt/AVR/root/lib/gcc/avr/14.1.0/../../../../avr/lib/avr25/crtattiny85.o
+__vector_3                                        /opt/AVR/root/lib/gcc/avr/14.1.0/../../../../avr/lib/avr25/crtattiny85.o
+__vector_4                                        /opt/AVR/root/lib/gcc/avr/14.1.0/../../../../avr/lib/avr25/crtattiny85.o
+__vector_5                                        /opt/AVR/root/lib/gcc/avr/14.1.0/../../../../avr/lib/avr25/crtattiny85.o
+__vector_6                                        /opt/AVR/root/lib/gcc/avr/14.1.0/../../../../avr/lib/avr25/crtattiny85.o
+__vector_7                                        /opt/AVR/root/lib/gcc/avr/14.1.0/../../../../avr/lib/avr25/crtattiny85.o
+__vector_8                                        /opt/AVR/root/lib/gcc/avr/14.1.0/../../../../avr/lib/avr25/crtattiny85.o
+__vector_9                                        /opt/AVR/root/lib/gcc/avr/14.1.0/../../../../avr/lib/avr25/crtattiny85.o
+__vector_default                                  /opt/AVR/root/lib/gcc/avr/14.1.0/../../../../avr/lib/avr25/crtattiny85.o
+__vectors                                         /opt/AVR/root/lib/gcc/avr/14.1.0/../../../../avr/lib/avr25/crtattiny85.o
+_exit                                             /opt/AVR/root/lib/gcc/avr/14.1.0/avr25/libgcc.a(_exit.o)
+exit                                              /opt/AVR/root/lib/gcc/avr/14.1.0/avr25/libgcc.a(_exit.o)
+                                                  /opt/AVR/root/lib/gcc/avr/14.1.0/../../../../avr/lib/avr25/crtattiny85.o
+font5x7                                           ./main.o
+font8x8                                           ./main.o
+main                                              ./eduardino/eduardino.o
+                                                  /opt/AVR/root/lib/gcc/avr/14.1.0/../../../../avr/lib/avr25/crtattiny85.o
+memset                                            /opt/AVR/root/lib/gcc/avr/14.1.0/../../../../avr/lib/avr25/libc.a(memset.o)
+                                                  ./main.o

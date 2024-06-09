@@ -12,8 +12,11 @@
       "type_traits": "cpp",
       "typeinfo": "cpp",
       "concepts": "cpp",
-      "variant": "c"
+      "variant": "c",
+      "ranges": "cpp"
     },
-    "hide-files.files": []
+    "hide-files.files": [
+      "mantita_controller.code-workspace"
+    ]
   }
 }

@@ -1,5 +1,6 @@
 #pragma once
 #include <eduardino_defines.hpp>
+#include <eranges.hpp>
 #include <eduardino_int_types.hpp>
 #include <device/device.hpp>
 #include <util/delay.h>
@@ -25,3 +26,4 @@ inline u8 * memset(auto & what, cu8 to) {
 
 inline u8 * zeromem(auto & what) {
 	return (u8*) memset(what, 0x00);}
+

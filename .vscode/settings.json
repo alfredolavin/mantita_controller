@@ -12,7 +12,8 @@
     ".vscode": true,
     ".settings": true,
     ".cproject": true,
-    ".project": true
+    ".project": true,
+    "mantita_controller.code-workspace": true
   },
   "hide-files.files": [
     ".vscode",
