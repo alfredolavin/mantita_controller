@@ -11,7 +11,8 @@
       "new": "cpp",
       "type_traits": "cpp",
       "typeinfo": "cpp",
-      "concepts": "cpp"
+      "concepts": "cpp",
+      "variant": "c"
     },
     "hide-files.files": []
   }

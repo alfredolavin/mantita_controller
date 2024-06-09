@@ -13,7 +13,5 @@ void setup() {
   analog.begin();
   delay_ms(1000); }
 
-
-
 void loop () {
   delay_ms(1000); }

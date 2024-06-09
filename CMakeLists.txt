@@ -91,6 +91,6 @@ add_custom_target(hex ALL ${OBJCOPY} -R .eeprom -O ihex "${PROJECT_NAME}.elf" "$
 add_custom_target(eeprom ${OBJCOPY} -j .eeprom --change-section-lma .eeprom=0 -O ihex "${PROJECT_NAME}.elf" "${PROJECT_NAME}.eeprom")
 add_custom_target(listing ALL ${OBJDUMP} -h --source --no-show-raw-insn --visualize-jumps=extended-color --wide --demangle --disassembler-color=extended-color -S "${PROJECT_NAME}.elf" | ansi2html.sh > "${PROJECT_NAME}.lss.html")
 add_custom_target(size ALL ${AVRSIZE} --format=berkeley -t "${PROJECT_NAME}.elf")
-add_custom_target(flash ${AVRDUDE} -c ${PROG_TYPE} -p ${MCU} -U flash:w:${PROJECT_NAME}.hex DEPENDS hex)
+add_custom_target(flash ${AVRDUDE} -c ${PROG_TYPE} -p ${MCU} -U flash:w:${PROJECT_NAME}.hex DEPENDS "${PROJECT_NAME}.elf")
 
 set_directory_properties(PROPERTIES ADDITIONAL_MAKE_CLEAN_FILES "${PROJECT_NAME}.hex;${PROJECT_NAME}.eeprom;${PROJECT_NAME}.lst")

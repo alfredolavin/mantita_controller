@@ -6,8 +6,8 @@
             "cStandard": "c23",
             "cppStandard": "gnu++23",
             "includePath": [
-                "${workspaceFolder}/**",
-                "${workspaceFolder}/eduardino"
+                "${workspaceFolder}/eduardino",
+                "${workspaceFolder}/**"
             ],
             "compilerArgs": [
                 "-g",
@@ -23,7 +23,7 @@
                 "__AVR_ATtiny85__=1",
                 "F_CPU=8000000"
             ],
-            "compilerPath": "",
+            "compilerPath": "/opt/AVR/root/bin/avr-g++",
             "configurationProvider": "ms-vscode.cmake-tools"
         }
     ],
